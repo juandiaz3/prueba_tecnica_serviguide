@@ -2,9 +2,9 @@
 
 Datos para compilación:
 - jdk:11
-- Instalar librería tracer-1.0.0.jar, ejecutando: 
+- Para la ejecución del archivo: 
 
-        mvn install:install-file -Dfile=c:\tracer-1.0.0.jar -DgroupId=io.corp.calculator -DartifactId=tracer -Dversion=1.0.0 -Dpackaging=jar
+        java -jar target/calculator-0.0.1-SNAPSHOT.jar
 
 
 Documentación Swagger:
